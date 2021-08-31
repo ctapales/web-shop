@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Container, Button } from "react-bootstrap";
-import "../../styles/banner.scss";
+import "../../styles/feed/banner.scss";
 
 const BANNER = props => {
   const settings = {

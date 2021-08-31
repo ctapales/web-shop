@@ -1,4 +1,5 @@
 import "./App.scss";
+import FOOTER from "./components/Footer";
 import NAVBAR from "./components/Navbar";
 import Feed from "./pages/Feed";
 
@@ -8,7 +9,10 @@ function App() {
       <header>
         <NAVBAR />
       </header>
-      <Feed />
+      <div className="page-content">
+        <Feed />
+      </div>
+      <FOOTER />
     </div>
   );
 }

@@ -11,7 +11,7 @@ import {
 
 const NAVBAR = props => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="light" variant="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Taffy Shop</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
